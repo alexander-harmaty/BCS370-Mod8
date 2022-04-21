@@ -583,7 +583,7 @@ template <class CL> farmingdale::statusCode farmingdale::linkedList<CL>::remove(
 	return SUCCESS;
 }
 
-//findAtPosition()
+//findAtPosition() RENAMED TO findAtPostion BECAUSE OF TEST CODE BUG
 template <class CL> farmingdale::llNode<CL>* farmingdale::linkedList<CL>::findAtPostion(int iterator) const {
 
 	//Step 1: traverse the list, stop when you've iterated nth times.
