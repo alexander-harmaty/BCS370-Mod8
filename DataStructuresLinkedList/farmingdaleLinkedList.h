@@ -197,19 +197,23 @@ public:
 
 
 };
+
 // Write the following here as outside inline functions: (all M7)
 // operator!= linkedList,linkedList
 template <class CL> inline bool operator!=(const farmingdale::linkedList<CL>& lhs, const farmingdale::linkedList<CL>& rhs) {
 	return (!(rhs == lhs));
 }
+
 // operator!= linkedList,std::deque
 template <class CL> inline bool operator!=(const farmingdale::linkedList<CL>& lhs, const std::deque<CL>& rhs) {
 	return (!(lhs == rhs));
 }
+
 // operator!= std::deque,linkedList
 template <class CL> inline bool operator!=(const std::deque<CL>& lhs, const farmingdale::linkedList<CL>& rhs) {
 	return (!(rhs == lhs));
 }
+
 // operator== std::deque,linkedList
 template <class CL> inline bool operator==(const std::deque<CL>& lhs, const farmingdale::linkedList<CL>& rhs) {
 	return (rhs == lhs);
