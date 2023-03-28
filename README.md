@@ -28,17 +28,17 @@ The header file also includes a definition for the statusCode enum, which is use
 ### Methods 
 - **isEmpty:** returns true if the linked list is empty
 - **getHead:** retrieves the value of the head node
-• **getTail:** retrieves the value of the tail node
-• **insertAtHead:** inserts a node at the head of the linked list
-• **insertAtTail:** inserts a node at the tail of the linked list
-• **insertAfter:** inserts a node after a given node
-• **findAtPosition:** finds a node at a given position in the linked list
-• **remove:** removes a given node from the linked list
-• **removeAtHead:** removes the head node from the linked list
-• **removeAtTail:** removes the tail node from the linked list
-• **various operator==() and operator!=() methods and functions**
-• **rule of threes:** destructor, copy constructor, copy assignment operator
-• **default constructor** default constructor for the linked list
+- **getTail:** retrieves the value of the tail node
+- **insertAtHead:** inserts a node at the head of the linked list
+- **insertAtTail:** inserts a node at the tail of the linked list
+- **insertAfter:** inserts a node after a given node
+- **findAtPosition:** finds a node at a given position in the linked list
+- **remove:** removes a given node from the linked list
+- **removeAtHead:** removes the head node from the linked list
+- **removeAtTail:** removes the tail node from the linked list
+- **various operator==() and operator!=() methods and functions**
+- **rule of threes:** destructor, copy constructor, copy assignment operator
+- **default constructor** default constructor for the linked list
 
 ## Tests
 
