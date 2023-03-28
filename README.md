@@ -26,8 +26,8 @@ The lists header file is split into two parts, one for a non-templated implement
 The header file also includes a definition for the statusCode enum, which is used to indicate the success or failure of various queue operations, and some constants used by the implementation.
 
 ### Methods 
-• **isEmpty:** returns true if the linked list is empty
-• **getHead:** retrieves the value of the head node
+•. **isEmpty:** returns true if the linked list is empty
+•. **getHead:** retrieves the value of the head node
 • **getTail:** retrieves the value of the tail node
 • **insertAtHead:** inserts a node at the head of the linked list
 • **insertAtTail:** inserts a node at the tail of the linked list
